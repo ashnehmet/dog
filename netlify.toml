@@ -1,1 +1,10 @@
-// Placeholder for netlify.toml
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[dev]
+  command = "npx eleventy --serve"
+  targetPort = 8080
+
+[functions]
+  directory = "netlify/functions"
