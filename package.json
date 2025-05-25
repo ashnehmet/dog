@@ -1,1 +1,11 @@
-// Placeholder for package.json
+{
+  "name": "doginfo",
+  "version": "1.0.0",
+  "description": "Dog Info Site - Built with Eleventy",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
